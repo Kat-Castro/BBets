@@ -51,9 +51,11 @@ teacher[1]=BrLw(odds = 4.35)
 savestats <- favstats(teacher)
 ```
   
-Looking at this information, we can conclude that Mr. BLw is establishing 'r savestats$mean' with the standard deviation being 'savestats$sd'
+Looking at this information, we can conclude that Mr. BLw is establishing `r savestats$mean` with the standard deviation being `savestats$sd`
 
 ## the standard deviation and a 95% confidence interval for their earnings?
+   
+In a 95% confidence interval, we can assume that Mr. BrLw's earning is `r savestats$mean - 2*savestats$sd` to `r savestats$mean + 2*savestats$sd`
   
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
   
